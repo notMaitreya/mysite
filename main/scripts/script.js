@@ -1,7 +1,7 @@
 var imgs = document.querySelectorAll('#slider .card');
 var dots = document.querySelectorAll('.dot');
 var currentImg = 0; // index of the first image 
-const interval = 3000;
+const interval = 4000; // interval time in milliseconds
 var timer = setInterval(changeSlide, interval);
 
 function changeSlide(n) { //function that controls the slider

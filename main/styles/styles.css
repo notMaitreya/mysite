@@ -2,19 +2,40 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    margin: auto;
     font-family: 'Roboto', sans-serif;
     background-color: #0f0e0e;
     color: aliceblue;
 }
-#main {
+#header {
     display: flex;
+    justify-content: center;
+    position: fixed;
+    margin: auto;
+}
+#main {
     flex-direction: column;
     align-items: center;
-    margin: auto;
-    padding: 1rem;
     width: 100%;
 }
+
+#title {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#title h3 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: auto;
+}
+
 h2 {
     text-align: center;
     text-decoration: underline;
@@ -23,6 +44,10 @@ h2 {
     font-size: 1.25rem;
     color: #ffffff;
     margin-bottom: 0.5rem;
+}
+
+section{
+    margin-top: 100px;
 }
 /*Adjust links to have space*/
 #nav-links {
