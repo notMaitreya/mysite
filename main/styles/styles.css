@@ -77,27 +77,17 @@ section{
 #nav-links a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
-#slider {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    align-items: center;
-    padding: 1rem;
-}
+
 #about {
     margin: auto;
-    text-align: center;
     display: flex;
     width: 40%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     gap: 2rem;
 }
 #about p {
-    text-align: center;
     margin: auto;
-
+    font-size: large;
 }
 
 /*Make photo circular*/
@@ -109,28 +99,6 @@ section{
     max-height: 150px;
     max-width: 150px;
     border-radius: 47%;
-}
-
-#cardSUM {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem;
-    border: 1px solid #dee2e6;
-    border-radius: 0.25rem;
-    background-color: #000000;
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-}
-.card {
-    margin: auto;
-    position: relative;
-    padding: 1rem;
-    border: 1px solid #dee2e6;
-    border-radius: 0.25rem;
-    background-color: #000000;
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 #skillimg {
     display: block;
@@ -146,10 +114,52 @@ section{
     margin-top: -60px;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#skills p {
+    text-align: center;
+    margin-right: 95px;
+    margin-bottom: -5px;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#skills ul{
+    margin-left: -80px;
+}
+
+.OS {
+    font-size: 1rem;
+    color: rgb(241, 167, 7);
+    border: rgb(131, 76, 4) 6px solid;
+    border-radius: 4rem; 
+    background-color: rgb(131, 76, 4);
 }
 #contact-info {
     flex-direction: column;
     text-align: center;
+}
+
+/*Placeholder for Project carousel*/
+#slider {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card {
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    background-color: #000000;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
 #slider .card {
