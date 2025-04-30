@@ -154,9 +154,9 @@ section{
     padding: 1rem;
 }
 
-#skills p {
+#osSkills p {
     text-align: center;
-    margin-right: 95px;
+    margin: auto;
     margin-bottom: -5px;
     font-size: 1rem;
     color: #ffffff;
@@ -164,7 +164,7 @@ section{
 }
 
 #skills ul{
-    margin-left: -80px;
+    margin-left: -40px;
 }
 
 .OS {
