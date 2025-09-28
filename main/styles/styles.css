@@ -92,7 +92,7 @@ h2 {
 }
 
 section{
-    margin-top: 100px;
+    margin-top: 200px;
     padding-left: 80px;
     padding-right: 80px;
 }
@@ -135,6 +135,7 @@ section{
     max-height: 150px;
     max-width: 150px;
     border-radius: 47%;
+    margin-left: 40px;
 }
 #skillimg {
     display: block;
@@ -145,9 +146,20 @@ section{
     max-width: 20px;
     border-radius: 0%;
 }
-#skills {
+
+#skillimg2 {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 200px;
+    max-width: 20px;
+    border-radius: 0%;
+    transform: scaleX(-1);
+}
+.skills {
     display: flex;
-    margin-top: -60px;
+    margin-top: -200px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -167,12 +179,29 @@ section{
     margin-left: -40px;
 }
 
+#devSkills {
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    margin-bottom: -5px;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 .OS {
     font-size: 1rem;
     color: rgb(241, 167, 7);
     border: rgb(131, 76, 4) 6px solid;
     border-radius: 4rem; 
     background-color: rgb(131, 76, 4);
+}
+.dev {
+    font-size: 1rem;
+    color: rgb(24, 12, 196);
+    border: rgb(21, 3, 85) 6px solid;
+    border-radius: 4rem; 
+    background-color: rgb(21, 3, 85);
 }
 #contact-info {
     flex-direction: column;
@@ -191,11 +220,34 @@ section{
 .card {
     margin: auto;
     position: relative;
+    max-width: 600px;
     padding: 1rem;
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
     background-color: #000000;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    justify-content: center;
+    width: 60%;
+    font-size: small;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+#ptmMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
 }
 
 #slider .card {
@@ -209,9 +261,19 @@ section{
 #slider .card:nth-child(){
     z-index: 2;
 }
-  
+
+#ptm {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 150px;
+    max-width: 300px;
+    border-radius: 0%;
+}
 
 .navigation-button {
+    margin-top: 300px;
     text-align: center;
     position: relative;
 }

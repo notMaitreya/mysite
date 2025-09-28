@@ -30,14 +30,14 @@
                 </div>
             </div>
         </div>
-        <form method="get" action="./add files/DeQuaveus-Reed (1).pdf" target="_blank" id="resume">
+        <form method="get" action="./add files/Resume.pdf" target="_blank" id="resume">
             <button id="rDwn" type="submit">Resume<img id="dwn" src="./Images/[CITYPNG.COM]HD Download Down Arrow White Symbol Sign Icon PNG - 5000x5000.png" alt="_" > </button>
         </form>
     </div> 
     <section>
         <div>
             <div id="about">
-                <h1>About Me</h1>
+                <h1 style="text-align: center;">About Me</h1>
                 <p>Hello! I'm DeQuaveus Reed, a multidisciplinary developer based in Saginaw, MI. 2 years of experience, I thrive at the intersection of digital design and UX/UI. My passion lies in crafting seamless user experiences and visually compelling designs that resonate with audiences and drive engagement.</p>
             </div>
             <h4>I have some of my projects below for you to see!</h4>
@@ -45,9 +45,14 @@
     </section>
     <section id="slider">
         <!-- ADD EXAMPLE PROJECTS!!! -->
-            <div class="card">
-                <h3>Project 1</h3>
-                <p>This is a description of project 1</p>
+            <div id="ptmMain" class="card">
+                <h3><img style="max-width: 50px; max-height: 25px; padding-right: 10px;" src="Images/path_to_menzo_logo.jpg" alt="PTM Logo">Path to Menzoberranzan<img style="max-width: 50px; max-height: 25px; padding-left: 10px;" src="Images/path_to_menzo_logo.jpg" alt="PTM Logo"></h3>
+                <img id="ptm" src="./Images/PTM.png" alt="path to menzoberranzan">
+                <h4>Role: Integration Programmer</h4>
+                <p>Path to Menzoberranzan is a custom campaign mod for Baldur’s Gate 3. 
+                    Team is creating an all-new, three-act story featuring iconic Forgotten Realms locations, faithfully recreated in the BG3 engine, a new protagonist and party of companions, full voice acting and more. 
+                    This project is a community driven mod and everybody collaborates for free on their own schedule. It will be free to play. 
+                    PTM team is not associated or partnered with Larian and other entities who authored or own Baldur's Gate 3 and D&D.</p>
             </div>
             <div class="card">
                 <h3>Project 2</h3>
@@ -58,14 +63,26 @@
                 <p>This is a description of project 3</p>
             </div>
     </section>
+    <br>
+    <br>
     <div class="navigation-button">
         <span class="dot active" onclick="changeSlide(0)"></span>
         <span class="dot" onclick="changeSlide(1)"></span>
         <span class="dot" onclick="changeSlide(2)"></span>
       </div>
     <section>
-        <div id="skills">
-                <h2><img id="skillimg" src="Images/pngegg.png" alt="">Skills</h2>
+         <div class="skills">
+                <h2><img id="skillimg" src="Images/favpng_121555ca11646b95dcb117b7d8f68277.png" alt="">Development<img id="skillimg" src="Images/favpng_121555ca11646b95dcb117b7d8f68277.png" alt=""></h2>
+                <div id="devSkills">
+                <ul>
+                <span class="dev">UI/UX</span>
+                <span class="dev">REACT</span>
+                <span class="dev">Git</span>
+                <span class="dev">RWD</span>
+                </ul>
+        </div>
+        <div class="skills">
+                <h2><img id="skillimg" src="Images/pngegg.png" alt="">Skills<img id="skillimg2" src="Images/pngegg.png" alt=""></h2>
                 <div id="osSkills">
                     <p>Operating Systems</p>
                 <ul>
@@ -76,13 +93,7 @@
                     <span class="OS">iOS</span>
                     <span class="OS">iPadOS</span>
                 </ul>
-                </div>
-            <ul>
-                UI/UX
-                REACT
-                Git
-                Responsive Web Design
-            </ul>
+        </div>
         </div>
     </section>
     <section id="contact">
