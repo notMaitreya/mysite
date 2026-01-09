@@ -118,6 +118,7 @@ section{
     margin: auto;
     display: flex;
     width: 40%;
+    text-align: center;
     flex-direction: column;
     gap: 2rem;
 }
